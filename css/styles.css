@@ -1,3 +1,64 @@
+
+/*
+
+//my room colours
+Black - #000000
+Dim Grey - #66666E
+Manatee - #9999A1
+Platinum - #E6E6E9
+cultured - #F4F4F6
+
+//
+Fluorecent Blue - #61E8E1
+Tart orange (looks like red) - #F25757
+corn (looks yellow) - #F2E863
+Orange Yellow crayola - #F2CD60
+
+*/
+
+
+/*Global styles
+------------------------------------------------ */
+body{
+  color: #343434
+}
 img{
   width: 300px;
+}
+
+
+/*Profile
+------------------------------------------------ */
+header{
+  background: #66666E;
+  color: #F7FFF7
+}
+
+
+/*Projects
+------------------------------------------------ */
+.projects{
+background:  #61E8E1;
+}
+
+
+
+/*Work Experience
+------------------------------------------------ */
+.work-experience{
+  background: #F2CD60;
+}
+
+
+
+/*Education
+------------------------------------------------ */
+.education{
+  background: #F25757;
+}
+
+/*Contact info
+------------------------------------------------ */
+footer{
+  background: #F2E863
 }
