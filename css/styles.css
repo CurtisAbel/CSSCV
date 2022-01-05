@@ -4,7 +4,7 @@
 //my room colours
 Black - #000000
 Dim Grey - #66666E
-Manatee - #9999A1
+Manatee - #66666E
 Platinum - #E6E6E9
 cultured - #F4F4F6
 
@@ -13,7 +13,7 @@ Fluorecent Blue - #61E8E1
 Tart orange (looks like red) - #F25757
 corn (looks yellow) - #F2E863
 Orange Yellow crayola - #F2CD60
-
+Robin Egg Blue- #36C9C6
 */
 
 
@@ -26,6 +26,13 @@ img{
   width: 300px;
 }
 
+a {
+  color: #36C9C6;
+}
+
+a:hover {
+text-decoration: none;
+}
 
 /*Profile
 ------------------------------------------------ */
@@ -41,6 +48,21 @@ header{
 background:  #61E8E1;
 }
 
+.projects a{
+color: #66666E
+}
+
+.projects .btn{
+  color: #F7FFF7;
+  background: #66666E;
+  text-decoration: none;
+  padding: 10;
+  border-radius: 4px;
+}
+
+.projects .btn:hover{
+  background: rgb(102, 102, 110, 70%);
+}
 
 
 /*Work Experience
