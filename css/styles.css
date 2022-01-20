@@ -19,6 +19,13 @@ Robin Egg Blue- #36C9C6
 
 /*Global styles
 ------------------------------------------------ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
 body{
   color: #343434;
   margin: 0;
@@ -84,13 +91,36 @@ color: #66666E
   text-decoration: none;
   padding: 7px;
   border-radius: 4px;
-  display: inline-block
+  float: right;
+  
 }
 
 .projects .btn:hover{
   background: rgb(102, 102, 110, 70%);
 }
+.projects h2{
+  border-bottom:1px dashed #66666E;
+}
 
+.project-item h3{
+  line-height: .1;
+  margin-top: 0;
+}
+.project-item p{
+  font-style: italic;
+}
+
+
+.project-item{
+  overflow: hidden;
+  border-bottom:1px dashed #66666E;
+  padding: 25px 0;
+}
+
+.project-item img{
+  float: left;
+  margin-right: 30px;
+}
 
 /*Work Experience
 ------------------------------------------------ */
