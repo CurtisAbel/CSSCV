@@ -19,6 +19,7 @@ Robin Egg Blue- #36C9C6
 
 /*Global styles
 ------------------------------------------------ */
+
 html {
   box-sizing: border-box;
 }
@@ -34,10 +35,6 @@ body{
   font-size: 16px;
   line-height: 1.5;
 }
-img{
-  width: 300px;
-}
-
 a {
   color: #36C9C6;
 }
@@ -62,7 +59,7 @@ h1, h2{
 }
 
 .content-wrap{
-  width: 900px;
+  max-width: 900px;
   margin: 0px auto;
   padding: 60px 0;
 }
@@ -71,7 +68,8 @@ h1, h2{
 ------------------------------------------------ */
 header{
   background: #66666E;
-  color: #F7FFF7
+  color: #F7FFF7;
+  text-align: center;
 }
 
 
@@ -91,41 +89,53 @@ color: #66666E
   text-decoration: none;
   padding: 7px;
   border-radius: 4px;
-  float: right;
   
 }
 
 .projects .btn:hover{
   background: rgb(102, 102, 110, 70%);
 }
-.projects h2{
+
+.projects h3{
   border-bottom:1px dashed #66666E;
 }
 
-.project-item h3{
-  line-height: .1;
-  margin-top: 0;
-}
 .project-item p{
   font-style: italic;
 }
 
-
-.project-item{
-  overflow: hidden;
-  border-bottom:1px dashed #66666E;
-  padding: 25px 0;
+img{
+  width: 100%;
 }
 
-.project-item img{
-  float: left;
-  margin-right: 30px;
+@media only screen and (min-width: 700px) { 
+
+  .projects-two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+  }
+
 }
+
+.two-column img{
+object-fit: cover ;
+height: 100%;
+margin-top: 10px;
+}
+
 
 /*Work Experience
 ------------------------------------------------ */
 .work-experience{
   background: #F2CD60;
+}
+
+.job-item {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-column-gap: 2em;
+  border-bottom:1px dashed #66666E;
 }
 
 
@@ -139,5 +149,16 @@ color: #66666E
 /*Contact info
 ------------------------------------------------ */
 footer{
-  background: #F2E863
+  background: #F2E863;
+  text-align: center;
+}
+.contact-list{
+  list-style-type: none;
+  display:flex;
+  justify-content: center;
+}
+
+.contact-list li{
+  padding: 15px;
+  display:inline-block;
 }

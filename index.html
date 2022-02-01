@@ -33,17 +33,21 @@ rel="stylesheet">
         <h2>Featured Projects</h2>
         
         <!-- Copy the whole <section> block to add more projects. -->
-        <section class ="project-item">
-          <h3>Hope, Final Year Project</h3>
-          <p> Individually created a mobile application to make it easier for scouts to find aspiring footballers.</p>
-          <img src="images/thumbnail-3.jpg" alt="description of image">
-          <ul>
-            <li>Used the waterfall model and software development tools as a guideline to help manage and build a structure  which helped to plan and track project progress. </li>
-            <li>Conducted analytical research through distributing questionnaires to scouts and footballers to obtain an  understanding on how the application could be made to meet their needs.  </li>
-            <li>Implemented functional requirements using Java, SQL and XML within android studio based off feedback  gathered from research. </li>
-            <li>Tested the application within a focus group of scouts and footballers. Obtaining successful feedback on the  application, with 85% of users suggesting that they would recommend to a friend. </li>
-          </ul>
-          <a class="btn" href="#" target="_blank">View project / case study</a>
+          <section class = "projects-two-column">
+            <div>
+              <img src="images/thumbnail-3.jpg" alt="description of image">
+            </div>
+            <div>
+              <h3>Hope, Final Year Project</h3>
+              <p> Individually created a mobile application to make it easier for scouts to find aspiring footballers.</p>
+              <ul>
+                <li>Used the waterfall model and software development tools as a guideline to help manage and build a structure  which helped to plan and track project progress. </li>
+                <li>Conducted analytical research through distributing questionnaires to scouts and footballers to obtain an  understanding on how the application could be made to meet their needs.  </li>
+                <li>Implemented functional requirements using Java, SQL and XML within android studio based off feedback  gathered from research. </li>
+                <li>Tested the application within a focus group of scouts and footballers. Obtaining successful feedback on the  application, with 85% of users suggesting that they would recommend to a friend. </li>
+              </ul>
+              <a class="btn" href="#" target="_blank">View project / case study</a>
+            </div>
           </section>
           <section class ="project-item">
           <h3>Campus, Level Two Group Project</h3>
@@ -78,23 +82,31 @@ rel="stylesheet">
       <section class="work-experience">
         <div class="content-wrap">
         <h2>Work Experience</h2>
-        <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
-
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>product developer</h3>
-          <p>Company Name</p>
-          <p>Date at job</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-          <p>Optional list:</p>
-          <ul>
-            <li>Delete this list if you don't need it.</li>
-            <li>Created...</li>
-            <li>Lead...</li>
-            <li>Responsible for...</li>
-          </ul>
+        <h3>AND Digital</h3>
+        <section class = "job-item">
+          <div class = "job-details">
+          <h4>LUNA, Front-End Developer</h4>
+          <p>December 2021 - present</p>
+          </div>
+          <div class = "job-summary">
+          <p>Used redux to create a form on a internal software called LUNA, 
+            that enabled users to edit their profile and  update their information in a clear and easy way. </p>
+            <ul>
+              <li>Added a pencil icon (for edit) to Personal Details, Expression of Wish, Banking Details. </li>
+              <li>Gave users the Ability to edit those fields, and validation still remains as per current edit flow. </li>
+            </ul>
+          </div>
         </section>
-        <!-- End of Job block. -->
+        <section class = "job-item">
+          <div class = "job-details">
+          <h4>LexisNexis Risk, Bootcamp Instructor</h4>
+          <p>September 2021</p>
+        </div>
+        <div class = "job-summary">
+          <p>Delivered a bootcamp for one of AND Digital's clients, LexisNexis Risk. I presented the PD fundamentals to newly stating graduates. 
+            Helped graduates with build week project fullstack applications and mentored the cohort and was able to adapt to new technologies. </p>
+          </div>
+        </section>
       </div>
       </section>
 
@@ -123,7 +135,7 @@ rel="stylesheet">
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
+        <ul class = "contact-list">
           <li>curtislavaud@outlook.com</li>
           <li><a href ="https://github.com/CurtisAbel">Github</a></a></li>
           <li><a href="https://twitter.com/calarchive?lang=en">Twitter</a></li>
