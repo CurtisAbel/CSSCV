@@ -64,6 +64,20 @@ h1, h2{
   padding: 60px 0;
 }
 
+h3{
+margin-bottom: 0;
+}
+
+.item-details h3 + p{
+  font-style: italic;
+}
+
+.item-details h3 ~ p {
+  margin: 0;
+}
+
+
+
 /*Profile
 ------------------------------------------------ */
 header{
@@ -135,10 +149,19 @@ margin-top: 10px;
   display: grid;
   grid-template-columns: 2fr 5fr;
   grid-column-gap: 2em;
+}
+
+.and-digital{
   border-bottom:1px dashed #66666E;
 }
 
+.work-experience-divider > section{
+  border-bottom:1px dashed #66666E;
+}
 
+.work-experience-divider > section:last-of-type{
+  border-bottom:none;
+}
 
 /*Education
 ------------------------------------------------ */
